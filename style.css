@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.page-header {
+    background-color: white;
+    padding: 35px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.section {
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+
+/* TASK 0 */
+
+@media (max-width: 767px) {
+    .typography h2 {
+        font-size: 22px;
+    }
+
+    .typography h3 {
+        font-size: 18px;
+    }
+
+    .typography p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .typography h2 {
+        font-size: 26px;
+    }
+
+    .typography h3 {
+        font-size: 21px;
+    }
+
+    .typography p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .typography h2 {
+        font-size: 30px;
+    }
+
+    .typography h3 {
+        font-size: 23px;
+    }
+
+    .typography p {
+        font-size: 18px;
+    }
+}
+
+
+/* Task 1 */
+
+.media-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.media-box {
+    background-color: #f1f1f1;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 0;
+}
+
+.media-box h3 {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+
+    .media-box {
+        width: calc(33.333% - 14px);
+        flex: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .media-box {
+        width: calc(50% - 10px);
+        flex: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .media-boxes {
+        flex-direction: column;
+    }
+
+    .media-box {
+        width: 100%;
+    }
+}
+
+
+/* TASK 2 */
+
+.bootstrap-box {
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+
+
+/* TASK 3 */
+
+.task-text {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+
+/* TASK 4 */
+
+.project {
+    border: 1px solid #ccc;
+    padding: 15px;
+    height: 100%;
+}
+
+#task4 aside {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.portfolio-footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.portfolio-footer p {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    #task4 h3 {
+        font-size: 22px;
+    }
+
+    #task4 aside {
+        margin-top: 20px;
+    }
+
+    #task4 aside p:last-child {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #task4 h3 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #task4 h3 {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="page-header">
+    <div class="container">
+        <h1>Assignment 3</h1>
+        <p>Responsive Web Design</p>
+    </div>
+</header>
+
+
+<!-- Task 0 -->
+<section class="container section typography" id="task0">
+
+    <h2>Task 0 - Responsive Typography</h2>
+
+    <h3>About Responsive Design</h3>
+
+    <p>
+        Responsive web design helps a website work well
+        on mobile, tablet and desktop screens.
+    </p>
+
+    <p>
+        The font size changes depending on the screen size.
+    </p>
+
+</section>
+
+
+<!-- Task 1 -->
+<section class="container section" id="task1">
+
+    <h2>Task 1 - Responsive Layout with Media Queries</h2>
+
+    <div class="media-boxes">
+
+        <div class="media-box">
+            <h3>Box 1</h3>
+            <p>This is the first responsive box.</p>
+        </div>
+
+        <div class="media-box">
+            <h3>Box 2</h3>
+            <p>This is the second responsive box.</p>
+        </div>
+
+        <div class="media-box">
+            <h3>Box 3</h3>
+            <p>This is the third responsive box.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Task 2 -->
+<section class="container section" id="task2">
+
+    <h2>Task 2 - Bootstrap Responsive Columns</h2>
+
+    <div class="row g-3">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="bootstrap-box">
+                <h3>Column 1</h3>
+                <p>Bootstrap responsive column.</p>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="bootstrap-box">
+                <h3>Column 2</h3>
+                <p>Bootstrap responsive column.</p>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="bootstrap-box">
+                <h3>Column 3</h3>
+                <p>Bootstrap responsive column.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Task 3 -->
+<section class="container section" id="task3">
+
+    <h2>Task 3 - Bootstrap Navigation Bar</h2>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">MyLogo</a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#task3Navbar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="task3Navbar">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <p class="task-text">
+        The logo is on the left and links are on the right. On smaller screens the navigation collapses into a hamburger menu.
+    </p>
+
+</section>
+
+
+<!-- Task 4 -->
+<section class="container section" id="task4">
+    <h2>Task 4 - Responsive Portfolio Page</h2>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#portfolioMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="portfolioMenu">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row mt-4">
+
+        <main class="col-lg-8">
+            <h3>My Projects</h3>
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="project">
+                        <h4>Project 1</h4>
+                        <p>HTML and CSS website.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project">
+                        <h4>Project 2</h4>
+                        <p>Responsive website.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project">
+                        <h4>Project 3</h4>
+                        <p>Bootstrap Grid project.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="project">
+                        <h4>Project 4</h4>
+                        <p>Portfolio website.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="col-lg-4">
+            <h3>About Me</h3>
+            <p>My name is Yernar Kuanyshbek</p>
+            <p>I am learning Front-End Development.</p>
+
+            <h4>Contact</h4>
+            <p>Email: 254850@astanait.edu.kz</p>
+        </aside>
+
+    </div>
+
+    <footer class="portfolio-footer">
+        <p>© 2026 My Portfolio</p>
+    </footer>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
